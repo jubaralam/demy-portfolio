@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Design: Flexbox, Grid, & CSS Styling</title>
+    <style>
+      .container {
+        width: 70vw;
+        margin:  auto ;
+        background-color: rgb(247, 247, 255);
+        padding: 10px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+       
+      }
+      .card {
+        text-align: center;
+        width: 180px;
+        /* height: 150px; */
+        background-color: white;
+        padding: 5px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        margin: 10px;
+      }
+      .card h3 {
+        color: rgb(116, 115, 115);
+      }
+      .card p {
+        color: blue;
+        font-weight: 900;
+        font-size: 20px;
+      }
+      .card img {
+        width: 50px;
+        margin-top: 10px;
+      }
+      .title{
+        text-align: center;
+        margin: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="title">Hiring Facts</h1>
+    <div class="container">
+      <div class="card">
+        <img
+          src="https://www.masaischool.com/images/hire-masai-grads/HiringFacts/hiring-facts-1.svg"
+          alt=""
+        />
+        <h3>Hiring Process</h3>
+        <p><b><3 Days</b></p>
+      </div>
+      <div class="card">
+        <img
+          src="https://www.masaischool.com/images/hire-masai-grads/HiringFacts/hiring-facts-2.svg"
+          alt=""
+        />
+        <h3>Offer Acceptance</h3>
+        <p><b>90%</b></p>
+      </div>
+      <div class="card">
+        <img
+          src="https://www.masaischool.com/images/hire-masai-grads/HiringFacts/hiring-facts-3.svg"
+          alt=""
+        />
+        <h3>Retention Rate</h3>
+        <p><b>93%</b></p>
+      </div>
+      <div class="card">
+        <img
+          src="https://www.masaischool.com/images/hire-masai-grads/HiringFacts/hiring-facts-4.svg"
+          alt=""
+        />
+        <h3>Hiring Partners</h3>
+        <p><b>4000+</b></p>
+      </div>
+      <div class="card">
+        <img
+          src="https://www.masaischool.com/images/hire-masai-grads/HiringFacts/hiring-facts-5.svg"
+          alt=""
+        />
+        <h3>Year Round Availability</h3>
+      </div>
+    </div>
+  </body>
+</html>
